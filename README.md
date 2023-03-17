@@ -22,9 +22,11 @@ $ ./bin/mmserver
 $ java -jar dist/MetaMapAnnotator.jar
 ```
 The files generated here were moved to `scraper/`. See next steps
-(This step is very time consuming and has already been done. This does not need to be done anymore.)
+### (This step is very time consuming and has already been done. This does not need to be done anymore.)
 
-We have some data in `src/`
+
+
+
 ## Step 2
 Go to `scraper/data` and run `combine.py`
 This generates `combinedData.csv`
@@ -46,4 +48,5 @@ disease_id, disease_name, description, records_count, has_symptom_count, has_tre
 
 We can do this by using a script.
 
-The next steps are then just using these database files and connecting a backend to front end. Do not worry too much about the definition of ontology --- it is simply a way of describing how data are organized. The data scraping has been done already. All data has already been scraped. You can find the scraped data in `scraper/data/*.csv` or `src/`
+The next steps are then just using these database files and connecting a backend to front end. Do not worry too much about the definition of ontology --- it is simply a way of describing how data are organized. The data scraping has been done already. All data has already been scraped. You can find the scraped data in `scraper/data/*.csv` or `src/` 
+## I believe that all of the necessary data in the entire project can be found in the csv files of `scraper/data/*.csv` or `src/`
