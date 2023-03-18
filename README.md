@@ -22,7 +22,7 @@ $ ./bin/mmserver
 $ java -jar dist/MetaMapAnnotator.jar
 ```
 The files generated here were moved to `scraper/`. Go to `scraper/data` and run `combine.py`
-This generates `combinedData.csv`
+This generates `combinedData.csv` Note that the Drugs, PatientsInfo, and Webmd files were also generated.
 
 ## (This step is very time consuming and has already been done. This does not need to be done anymore.) All of the necessary data in the entire project can be found in the csv files of `scraper/data/*.csv` or `src/`
 

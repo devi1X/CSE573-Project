@@ -1,0 +1,658 @@
+anatomy_id, description'C0000739', 'Abdominal Muscles
+'C0000962', 'Bone structure of acetabulum
+'C0001074', 'Structure of achilles tendon
+'C0001428', 'Adenoidal structure
+'C0001625', 'Adrenal Glands
+'C0003461', 'Anus
+'C0003483', 'Aorta
+'C0003707', 'Arachnoid mater
+'C0003842', 'Arteries
+'C0004781', 'Basal Ganglia
+'C0004895', 'Beak
+'C0005400', 'Bile duct structure
+'C0005682', 'Urinary Bladder
+'C0005847', 'Blood Vessel
+'C0006104', 'Brain
+'C0006121', 'Brain Stem
+'C0006141', 'Breast
+'C0006441', 'Synovial bursa
+'C0007572', 'Celiac Plexus
+'C0007874', 'Cervix Uteri
+'C0008913', 'Bone structure of clavicle
+'C0008919', 'Claw
+'C0008984', 'Clitoris
+'C0009194', 'Bone structure of coccyx
+'C0009195', 'Cochlear structure
+'C0009368', 'Colon structure'C0010031', 'Cornea
+'C0010352', 'Avian crop
+'C0010482', 'Cuspid
+'C0011343', 'Dental Cementum
+'C0011980', 'Respiratory Diaphragm
+'C0013303', 'Duodenum
+'C0013313', 'Dura Mater
+'C0013443', 'Ear structure
+'C0013444', 'External auditory canal structure
+'C0014533', 'Epididymis
+'C0014876', 'Esophagus
+'C0015385', 'Limb structure
+'C0015392', 'Eye
+'C0015420', 'Eyebrow structure
+'C0015422', 'Eyelash
+'C0015426', 'Eyelid structure
+'C0015460', 'Facial Muscles
+'C0015462', 'Facial nerve structure
+'C0015665', 'Fat Body
+'C0015731', 'Feathers
+'C0015811', 'Femur
+'C0015813', 'Head of femur
+'C0015815', 'Structure of neck of femur
+'C0016504', 'Foot
+'C0016536', 'Forearm
+'C0016732', 'Frontal bone structure
+'C0016976', 'Gallbladder
+'C0017067', 'Ganglia
+'C0017420', 'Genitalia
+'C0017421', 'Female genitalia
+'C0017562', 'Gingiva
+'C0017681', 'glottis
+'C0018067', 'Gonadal structure
+'C0018494', 'Hair
+'C0018534', 'Hallux structure
+'C0018563', 'Hand
+'C0018787', 'Heart
+'C0018792', 'Heart Atrium
+'C0018826', 'Heart Valves
+'C0018827', 'Heart Ventricle
+'C0019552', 'Hip structure
+'C0020412', 'Structure of hymen
+'C0020885', 'ileum
+'C0021851', 'Large Intestine
+'C0021852', 'Intestines| Small
+'C0021853', 'Intestines
+'C0022077', 'Iris'C0022122', 'Bone structure of ischium
+'C0022359', 'Jaw
+'C0022646', 'Kidney
+'C0022742', 'Knee
+'C0022889', 'Labyrinth
+'C0022907', 'Lacrimal gland structure
+'C0023078', 'Larynx
+'C0023217', 'Leg Bones
+'C0023317', 'Lens| Crystalline
+'C0023759', 'Lip structure
+'C0023884', 'Liver
+'C0024091', 'Bone structure of lumbar vertebra
+'C0024109', 'Lung
+'C0024204', 'lymph nodes
+'C0024687', 'Mandible
+'C0024947', 'Maxilla
+'C0025148', 'Medulla Oblongata
+'C0026264', 'Mitral Valve
+'C0026367', 'Molar tooth
+'C0026369', 'Structure of wisdom tooth
+'C0027342', 'Nail plate
+'C0027532', 'Skeletal muscle structure of neck
+'C0027792', 'Neural Pathways
+'C0028109', 'Nipples
+'C0028429', 'Nose
+'C0028863', 'Muscle of orbit
+'C0028938', 'Olfactory Nerve
+'C0029130', 'Optic Nerve
+'C0029939', 'Ovary
+'C0030274', 'Pancreas
+'C0030580', 'Parotid Gland
+'C0030747', 'Pectoralis Muscles
+'C0030786', 'Hip Bone
+'C0030797', 'Pelvis
+'C0030851', 'penis
+'C0031354', 'Pharyngeal structure
+'C0032639', 'Pontine structure
+'C0033572', 'Prostate
+'C0034014', 'Bone structure of pubis
+'C0034121', 'Pupil
+'C0034196', 'Pylorus
+'C0034518', 'Structure of radial nerve
+'C0034896', 'Rectum
+'C0035298', 'Retina
+'C0035561', 'Bone structure of rib
+'C0036270', 'Scalp structure
+'C0036277', 'Bone structure of scapula
+'C0036394', 'Structure of sciatic nerve
+'C0036410', 'Sclera
+'C0036471', 'Scrotum
+'C0036505', 'Sebaceous Glands
+'C0037189', 'Sinoatrial Node
+'C0037303', 'Bone structure of cranium
+'C0037884', 'Sphenoid bone structure
+'C0037925', 'Spinal Cord
+'C0037941', 'Spinal nerve structure
+'C0037949', 'Vertebral column
+'C0037991', 'Splanchnic Nerves
+'C0037993', 'Spleen
+'C0038293', 'Sternum
+'C0038351', 'Stomach
+'C0038556', 'Submandibular gland
+'C0038879', 'Structure of sural nerve
+'C0038925', 'Surgical Flaps
+'C0038989', 'Sweat Glands
+'C0039259', 'Tail
+'C0039316', 'Tarsal Bones
+'C0039337', 'Taste Buds
+'C0039482', 'Temporal Arteries
+'C0039485', 'Temporal Lobe
+'C0039508', 'Tendon structure
+'C0039597', 'Testis
+'C0039729', 'Thalamic structure
+'C0040067', 'Thumb structure
+'C0040132', 'Thyroid Gland
+'C0040184', 'Bone structure of tibia
+'C0040357', 'Toes
+'C0040408', 'Tongue
+'C0040421', 'Palatine Tonsil
+'C0040426', 'Tooth structure
+'C0040452', 'Tooth root structure
+'C0040578', 'Trachea
+'C0040746', 'Structure of transplanted liver
+'C0040996', 'Trigeminal nerve structure
+'C0041159', 'Trochlear nerve structure
+'C0041445', 'Tympanic membrane structure
+'C0041638', 'Umbilicus'C0041951', 'Ureter
+'C0041967', 'Urethra
+'C0042027', 'Urinary tract
+'C0042149', 'Uterus
+'C0042173', 'Uvula of palate
+'C0042232', 'Vagina
+'C0042276', 'Vagus nerve structure
+'C0042449', 'Veins
+'C0042640', 'Vibrissae
+'C0042930', 'Vocal cord structure
+'C0042993', 'Vulva
+'C0043189', 'Wing
+'C0043539', 'Zygomatic bone
+'C0078960', 'Anterior Cruciate Ligament
+'C0085515', 'Rotator Cuff
+'C0149538', 'Skin structure of breast
+'C0149561', 'Structure of anterior cerebral artery
+'C0149566', 'Structure of middle cerebral artery
+'C0150934', 'Ear| nose and throat
+'C0162859', 'Common carotid artery
+'C0175173', 'Neocortex
+'C0178784', 'Organ
+'C0205029', 'Skin structure of head
+'C0205878', 'Glomus tympanicum
+'C0206248', 'Pelvic Diaphragm
+'C0221960', 'Structure of terminal hair
+'C0221971', 'Hair follicle structure
+'C0221979', 'Entire hair of scalp
+'C0221980', 'Structure of hair of face
+'C0221982', 'Structure of beard
+'C0222001', 'Structure of nail of finger
+'C0222002', 'Structure of nail of thumb
+'C0222007', 'Structure of nail of toe
+'C0222008', 'Structure of nail of great toe
+'C0222017', 'Abdominal skin pouch
+'C0222032', 'Spur'C0222041', 'Shell - Animal skin appendage
+'C0222045', 'Integumentary scale
+'C0222084', 'Skin structure of face
+'C0222095', 'Skin of external nose
+'C0222101', 'Skin of lip
+'C0222155', 'Skin structure of back
+'C0222173', 'Skin structure of inguinal region
+'C0222193', 'Skin of penis
+'C0222198', 'Skin of scrotum
+'C0222224', 'Skin structure of hand
+'C0222234', 'Skin of finger
+'C0222269', 'Skin structure of thigh
+'C0222275', 'Skin structure of knee
+'C0222328', 'Skin structure of all toes
+'C0222600', 'Right breast
+'C0222601', 'Left breast
+'C0222632', 'Teat
+'C0222760', 'Structure of greater horn of hyoid bone
+'C0222762', 'Thoracic cage structure
+'C0223651', 'Iliac crest structure
+'C0223683', 'Structure of head of humerus
+'C0223741', 'Trapezoid bone structure
+'C0223976', 'Entire first metatarsal
+'C0224086', 'Belly of skeletal muscle
+'C0224236', 'Structure of long head of biceps brachii muscle
+'C0224334', 'Skeletal muscle structure of back
+'C0224335', 'Structure of muscle of lower back
+'C0224337', 'Skeletal muscle structure of thorax
+'C0224415', 'Skeletal muscle structure of hip
+'C0224416', 'Skeletal muscle structure of thigh
+'C0224429', 'Structure of piriformis muscle
+'C0224440', 'Structure of quadriceps femoris muscle
+'C0224456', 'Skeletal muscle structure of lower leg
+'C0224972', 'Structure of tendon of foot
+'C0225414', 'Bridge of nose
+'C0225434', 'Inferior nasal concha
+'C0225706', 'Right lung
+'C0225730', 'Left lung
+'C0225754', 'Both lungs
+'C0225756', 'Structure of upper lobe of lung
+'C0225836', 'Interatrial septum
+'C0225860', 'Left atrial structure
+'C0225883', 'Right ventricular structure
+'C0225988', 'Structure of small blood vessel'C0226087', 'Left common carotid artery structure
+'C0226157', 'Structure of left internal carotid artery
+'C0226501', 'Structure of muscular type vein
+'C0226792', 'Structure of vein of upper extremity
+'C0226926', 'External Lip
+'C0226951', 'Structure of gland of mucous membrane of tongue
+'C0226952', 'Dorsum of tongue
+'C0226958', 'Root of tongue
+'C0226993', 'Tooth Crowns
+'C0227073', 'Mandibular right first molar
+'C0227075', 'Mandibular right third molar tooth
+'C0227088', 'Deciduous maxillary right first molar tooth
+'C0227123', 'Gum of mandible
+'C0227149', 'Pharyngeal wall
+'C0227192', 'Inferior esophageal sphincter structure
+'C0227296', 'Papilla of duodenum
+'C0227391', 'Sigmoid colon
+'C0227411', 'Anal canal
+'C0227458', 'Stensen''s duct
+'C0227470', 'Structure of right submaxillary gland
+'C0227471', 'Structure of left submaxillary gland
+'C0227614', 'Left kidney
+'C0227665', 'Both kidneys
+'C0227755', 'Right side of vulva
+'C0227759', 'Labium
+'C0227760', 'labium majus
+'C0227766', 'labium minus
+'C0227800', 'Anterior wall of vagina
+'C0227817', 'fundus uteri
+'C0227874', 'Structure of left ovary
+'C0227936', 'Body of penis
+'C0227948', 'Glans penis
+'C0227951', 'Corona of glans
+'C0227952', 'Foreskin of penis
+'C0227997', 'Structure of right testis
+'C0227998', 'Structure of left testis
+'C0228084', 'Nerve root structure
+'C0228179', 'Lobe of brain
+'C0228193', 'Right frontal lobe structure
+'C0228341', 'Lateral posterior nucleus of thalamus
+'C0228505', 'Nodulus cerebelli
+'C0228897', 'Lumbar nerve
+'C0228972', 'Sympathetic trunk structure
+'C0229090', 'Left eye structure
+'C0229194', 'Tunica interna of eyeball
+'C0229201', 'Structure of retina of both eyes
+'C0229258', 'Lower eyelid
+'C0229298', 'Right ear structure
+'C0229299', 'Left ear structure
+'C0229315', 'Ear lobe
+'C0229433', 'Right Eustachian canal structure
+'C0229447', 'Left inner ear structure
+'C0229653', 'Lymphoid aggregate
+'C0229802', 'Structure of retroperitoneal lymph node
+'C0229867', 'Right faucial tonsil structure
+'C0229868', 'Left faucial tonsil structure
+'C0229871', 'Lingual tonsil
+'C0229962', 'Body part
+'C0229964', 'Lower body part structure
+'C0229965', 'half of body
+'C0229966', 'Structure of right half of body
+'C0229967', 'Structure of left half of body
+'C0229985', 'Surgical margins
+'C0230102', 'Lower back structure
+'C0230107', 'Withers
+'C0230190', 'Mons pubis
+'C0230331', 'All legs
+'C0230346', 'Right upper arm structure
+'C0230347', 'Left upper arm structure
+'C0230348', 'Both upper arms
+'C0230365', 'Structure of right wrist
+'C0230366', 'Structure of left wrist
+'C0230370', 'Structure of right hand
+'C0230371', 'Structure of left hand
+'C0230388', 'Index finger
+'C0230393', 'Middle finger structure
+'C0230398', 'Fourth finger
+'C0230403', 'Fifth finger
+'C0230415', 'Right lower extremity
+'C0230420', 'Both lower extremities
+'C0230425', 'Structure of right thigh
+'C0230426', 'Structure of left thigh
+'C0230431', 'Structure of right knee
+'C0230442', 'Structure of right lower leg
+'C0230443', 'Structure of left lower leg
+'C0230446', 'Both lower legs
+'C0230448', 'Structure of left ankle
+'C0230461', 'Structure of left foot
+'C0230462', 'Structure of dorsum of foot
+'C0262201', 'Area X
+'C0262950', 'Skeletal bone
+'C0282335', 'Respiratory tract structure
+'C0376152', 'Marrow
+'C0376161', 'Comb animal structure
+'C0391908', 'colon rectal
+'C0423866', 'Lanugo
+'C0447612', 'Vaginal wall
+'C0448064', 'Bone structure of hand
+'C0448161', 'Structure of shaft of rib
+'C0448421', 'Skeletal muscle structure of pelvis
+'C0448482', 'Posterior crural muscle structure
+'C0448913', 'Entire skin of heel
+'C0457846', 'Cervical segment of spinal cord
+'C0458451', 'Spongy urethra
+'C0458532', 'Laryngeal prominence
+'C0458582', 'Upper lip structure
+'C0458583', 'Lower lip structure
+'C0458708', 'Frenulum of penis
+'C0458827', 'Airway structure
+'C0459385', 'Brain tissue
+'C0459592', 'Eyelid gland
+'C0459624', 'Lacrimal duct
+'C0507115', 'Superior segmental bronchus
+'C0507157', 'Left clavicle
+'C0507205', 'Right scapula
+'C0507206', 'Left scapula
+'C0521421', 'Entire ear
+'C0545775', 'Set of glands of mouth
+'C0545797', 'liver and spleen
+'C0545917', 'urethra and vagina
+'C0545924', 'penis and vagina
+'C0545947', 'vagina and uterus
+'C0545952', 'Uterus+Fallopian tubes
+'C0545990', 'brain and cranium
+'C0549207', 'Bone structure of spine
+'C0559499', 'Biceps brachii muscle structure
+'C0559987', 'Entire tendon of subscapularis muscle
+'C0581269', 'Thoracic spine structure
+'C0581668', 'Muscle structure of hand
+'C0581753', 'Muscle structure of foot
+'C0582802', 'Digit structure
+'C0584876', 'Bone structure of phalanx of foot
+'C0584882', 'Infraspinatous muscle structure
+'C0584895', 'Posterior muscle of thigh structure
+'C0585636', 'Upper eyelid structure
+'C0588054', 'Cervical lymph node group
+'C0588055', 'Mediastinal lymph node group
+'C0682630', 'female ovule
+'C0682651', 'sensory pathway
+'C0684083', 'Structure of pelvic girdle
+'C0684087', 'masto-
+'C0684110', 'sex organs
+'C0687023', 'Structure of skeletal muscle of shoulder
+'C0687028', 'Duct'C0687080', 'Paw
+'C0694560', 'bladder/urinary tract
+'C0694649', 'Left deltoid
+'C0694651', 'Left gluteus medius
+'C0699772', 'Skin structure of scalp
+'C0699819', 'Gut
+'C0700374', 'Palate
+'C0728985', 'Cervical spine
+'C0729594', 'Axillary lymph node group
+'C0729596', 'Inguinal lymph node group
+'C0729697', 'Great vein
+'C0730183', 'Joint structure of ankle and/or foot
+'C0734892', 'Right hemiliver
+'C0735427', 'Right hip bone
+'C0736268', 'Liver parenchyma
+'C0738572', 'Left labium majus
+'C0739301', 'Left femoral vein
+'C0741968', 'carotid
+'C0746922', 'Anatomic Node
+'C0796494', 'lobe
+'C0815007', 'right brain
+'C0817319', 'Right femur
+'C0833275', 'Musculature of left hand
+'C0836921', 'Tonsil
+'C0869996', 'hand and wrist
+'C0870018', 'Ankle+Foot
+'C0920786', 'Left eyeball
+'C0925962', 'Right cheek
+'C0925963', 'Left cheek
+'C0925983', 'Hair of nose
+'C0926321', 'Hair of forearm
+'C0926332', 'Hair of leg
+'C0926393', 'Hair of chin
+'C0927939', 'Right tympanic membrane
+'C0929370', 'Intralobular part of terminal lactiferous duct
+'C0930459', 'Sideburn
+'C0932441', 'Muscle of pelvic diaphragm
+'C0934418', 'Hair of abdomen
+'C0934502', 'anatomical layer
+'C0934691', 'Eyelash of upper eyelid
+'C0934770', 'Right middle finger
+'C0935603', 'Left thumb
+'C0935616', 'Chamber'C0947131', 'Hip.bilateral
+'C0947181', 'Ribs.left
+'C0947182', 'ribs on right side
+'C0947204', 'Toes.left
+'C0947205', 'Toes.right
+'C0947209', 'Vein.left
+'C0947210', 'Vein.right
+'C0947619', 'Finger.right
+'C0947620', 'Finger.left
+'C1140618', 'Upper Extremity
+'C1184743', 'bony process
+'C1184752', 'Set of vascular nerves
+'C1185726', 'Cutaneous vein
+'C1185740', 'Tract
+'C1185781', 'Labrum
+'C1186763', 'Stem of Organ
+'C1186983', 'anatomic valve
+'C1235681', 'Distal tendon of biceps brachii
+'C1253959', 'Branch of
+'C1261040', 'Hair of scalp
+'C1261042', 'Skin of vulva
+'C1261076', 'Structure of left upper lobe of lung
+'C1261077', 'Structure of left lower lobe of lung
+'C1261082', 'Left coronary artery structure
+'C1261103', 'Fifth toe structure
+'C1261195', 'Intervertebral disc structure of fifth lumbar vertebra
+'C1266881', 'Entire terminal hair of face
+'C1266908', 'Entire bone'C1266928', 'Nasal turbinate bone structure
+'C1267072', 'Entire vertebral column
+'C1267211', 'Entire duct
+'C1268087', 'Upper body structure
+'C1268088', 'Lower body structure
+'C1268090', 'Skin part
+'C1268110', 'Heart part
+'C1268137', 'Penis part
+'C1268169', 'Nerve part
+'C1268194', 'Nail part
+'C1268203', 'Mouth region part
+'C1268205', 'Spleen part
+'C1268215', 'Head part
+'C1268221', 'Neck part
+'C1268255', 'Entire right upper arm
+'C1268256', 'Entire left upper arm
+'C1268257', 'Entire right elbow region
+'C1268258', 'Entire left elbow region
+'C1268973', 'Entire inner ear
+'C1268976', 'Entire submandibular gland
+'C1268977', 'Entire frontal lobe
+'C1268986', 'Entire trochlear nerve
+'C1268989', 'Entire adrenal gland
+'C1268990', 'Entire breast
+'C1268998', 'Entire small intestine
+'C1269000', 'Entire appendix
+'C1269001', 'Entire gallbladder
+'C1269004', 'Entire mitral valve
+'C1269024', 'Entire inferior vena cava
+'C1269032', 'Entire uterus
+'C1269040', 'Entire nail bed
+'C1269045', 'Entire skeletal muscle of neck
+'C1269047', 'Entire lymph node
+'C1269048', 'Entire temporomandibular joint
+'C1269078', 'Entire upper limb
+'C1269533', 'Entire floor of mouth
+'C1269537', 'Entire brain
+'C1269539', 'Entire glans penis
+'C1269542', 'Entire sacrum
+'C1269612', 'Entire upper arm
+'C1269613', 'Entire thumb
+'C1269825', 'Skeletal muscle structure of chest wall
+'C1269870', 'Entire thoracic spine
+'C1269891', 'Entire right ventricle
+'C1269903', 'Entire posterior crural muscle
+'C1275670', 'Collateral branch of vessel
+'C1278836', 'Entire spinal cord
+'C1278864', 'Entire sural nerve
+'C1278878', 'Entire thyroid gland
+'C1278891', 'Entire iris
+'C1278896', 'Entire nose
+'C1278899', 'Entire maxillary sinus
+'C1278902', 'Entire sphenoid sinus
+'C1278908', 'Entire lung
+'C1278909', 'Entire mediastinum
+'C1278911', 'Entire lip
+'C1278913', 'Entire tongue
+'C1278914', 'Entire palate
+'C1278916', 'Entire parotid gland
+'C1278917', 'Entire salivary gland
+'C1278919', 'Entire esophagus
+'C1278920', 'Entire stomach
+'C1278926', 'Entire rectum
+'C1278927', 'Entire anus
+'C1278932', 'Entire spleen
+'C1278960', 'Entire vein
+'C1278978', 'Entire kidney
+'C1278980', 'Entire prostate
+'C1278981', 'Entire testis
+'C1278982', 'Entire epididymis
+'C1278983', 'Entire spermatic cord
+'C1278985', 'Entire vagina
+'C1278992', 'Entire ovary
+'C1278997', 'Entire scalp
+'C1279001', 'Entire skin of back
+'C1279035', 'Entire chest wall
+'C1279051', 'Entire fascia
+'C1279083', 'Entire radius
+'C1279118', 'Entire tibia
+'C1279153', 'Entire cheek
+'C1279548', 'Entire right thigh
+'C1279549', 'Entire left thigh
+'C1279571', 'Entire right knee
+'C1279572', 'Entire left knee
+'C1279605', 'Entire right lower leg
+'C1279606', 'Entire left lower leg
+'C1279864', 'Entire pelvis
+'C1279998', 'Entire right foot
+'C1279999', 'Entire left foot
+'C1280013', 'Entire right ankle
+'C1280065', 'Entire spine
+'C1280090', 'Entire limb
+'C1280202', 'Entire eye
+'C1280205', 'Entire upper eyelid
+'C1280388', 'Entire upper lip
+'C1280389', 'Entire lower lip
+'C1280392', 'Entire soft palate
+'C1280541', 'Entire nerve
+'C1280542', 'Entire beard
+'C1280632', 'Entire trunk
+'C1280698', 'Entire throat'C1280733', 'Entire eyebrow
+'C1280734', 'Entire eyelid
+'C1280736', 'Entire palatine tonsil
+'C1280739', 'Entire penis
+'C1280740', 'Entire scrotum
+'C1280742', 'Entire vulva
+'C1280744', 'Entire umbilicus
+'C1281196', 'Entire right ovary
+'C1281197', 'Entire left ovary
+'C1281245', 'Entire right tonsil'C1281297', 'Entire hair follicle
+'C1281562', 'Entire tooth
+'C1281569', 'Entire colon
+'C1281570', 'Entire heart
+'C1281572', 'Entire ureter
+'C1281573', 'Entire bladder
+'C1281574', 'Entire urethra
+'C1281575', 'Entire scapula
+'C1281577', 'Entire rib
+'C1281583', 'Entire hand
+'C1281584', 'Entire finger
+'C1281586', 'Entire thigh
+'C1281587', 'Entire foot
+'C1281589', 'Entire toe
+'C1281590', 'Entire head
+'C1281591', 'Entire face
+'C1281592', 'Entire neck
+'C1281594', 'Entire abdomen
+'C1281813', 'Central nervous tissue
+'C1281955', 'Entire left frontal lobe
+'C1282852', 'Entire deep vein
+'C1283622', 'Part of diaphragm
+'C1283707', 'Occipital nerve
+'C1283788', 'Entire spinal nerve
+'C1283892', 'Entire nasal passage
+'C1284112', 'Entire lumbar vertebral column
+'C1284724', 'Entire lumbar nerve
+'C1285092', 'Gland
+'C1285501', 'Structure of vein of hand
+'C1288305', 'Entire eyelash
+'C1288410', 'Entire left testis
+'C1288948', 'Entire right hand
+'C1288949', 'Entire left hand
+'C1289033', 'Entire right ear
+'C1289055', 'Entire left ear
+'C1289205', 'Entire left parotid gland
+'C1289344', 'Entire hair of face
+'C1299162', 'Lip part
+'C1304986', 'Entire deltoid muscle
+'C1305372', 'Hilar lymph node
+'C1305417', 'Entire elbow region
+'C1305418', 'Entire calf of leg'C1305636', 'Entire hair of pubis
+'C1305781', 'Supraspinatus tendon
+'C1306819', 'Entire prepuce
+'C1318154', 'Root body part
+'C1409894', 'Sphincter
+'C1508672', 'Ribs.upper.right
+'C1512329', 'Hair Part
+'C1516847', 'Endocrine System Part
+'C1517465', 'Digestive System Part
+'C1518256', 'Nervous System Part
+'C1519546', 'Tonsil Part
+'C1522460', 'Thoracic aorta
+'C1550227', 'Body Parts - Canal
+'C1550229', 'Common Duct
+'C1550235', 'Cord - Body Parts
+'C1550236', 'Coral - body part
+'C1550244', 'Cuff - body part
+'C1550261', 'Glans
+'C1550262', 'Gluteal
+'C1550270', 'Knee Fluid
+'C1550277', 'Meatus
+'C1550306', 'Supra Cervical
+'C1552118', 'Supernumerary maxillary right second premolar
+'C1552122', 'Supernumerary maxillary right central incisor
+'C1552124', 'Supernumerary maxillary left lateral incisor
+'C1552130', '16s
+'C1552134', '20s
+'C1552154', 'Js
+'C1552158', 'Supernumerary mandibular right central primary incisor
+'C1556138', 'Disc - Body Part
+'C1563093', 'Distal intermedial ridge of tibia
+'C1708100', 'Frontal Artery
+'C1709950', 'Rib 3
+'C1719065', 'Hip+Thigh
+'C1720438', 'Entire left anterior naris
+'C1720679', 'Entire right anterior naris
+'C1735318', 'Vestibular Labyrinth
+'C1744702', 'Gluteal muscle
+'C1760774', 'Structure of muscle of forearm
+'C1880192', 'Crypt
+'C1959673', 'Muscle of rotator cuff
+'C1995013', 'Set of muscles
+'C2333155', 'Set of fingers of left hand
+'C2362788', 'Musculature of arm
+'C2371961', 'Body hair
+'C2706046', 'Eye lid
+'C2937240', 'Upper abdomen structure
+'C2985236', 'Structure of thick cushion of skin on foot
+'C2986716', 'Quarter of the Udder
+'C2987482', 'Animal Coat
+'C3640698', 'Mid-Left Anterior Descending Artery
+'C3686591', 'Tentacle
+'C3686612', 'Structure of blood vessel of dermis
+'C3686743', 'Pharyngeal area structure
+'C3887606', 'Entire lumbar region
+'C3887642', 'Hippocampus Proper
+'C4019107', 'Collar Bone
+'C4019253', 'Kneecap
+'C4048756', 'Right arm
+'C4068922', 'Earlobe
+'C4071827', 'Angio
