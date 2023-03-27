@@ -28,6 +28,7 @@ links_list = []
 title_list = []
 author_list = []
 content_list = []
+utc_list = []
 
 # scrap data
 # scrap links, title
@@ -43,6 +44,8 @@ for i in range(len(url_list)):
         author = k.find('div', class_="post__actions post__user grid")
         author_name = author.find('a')
         author_list.append(author_name.get_text())
+        utc = k.find('time', class_="fuzzy")
+        utc_list.append(utc.get('datetime'))
 
 # scrap content
 for i in range(len(links_list)):
@@ -54,7 +57,7 @@ for i in range(len(links_list)):
     #print(content_list)
 
 # Load to CSV
-df = pd.DataFrame({'Titles':title_list, 'Links':links_list, 'Author': author_list, 'Content': content_list})
+df = pd.DataFrame({'Titles':title_list, 'Links':links_list,'Post_Time': utc_list, 'Author': author_list, 'Content': content_list })
 #print(df)
 df.to_csv('patient_data.csv')
 print('Done')
