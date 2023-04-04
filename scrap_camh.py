@@ -21,6 +21,7 @@ links_list = []
 title_list = []
 author_list = []
 content_list = []
+utc_list = []
 
 # 子网页list
 question_list = []
@@ -34,12 +35,12 @@ for k in soup.find_all('a', class_=re.compile("w-100")):
     links_list.append(k.get('href'))
     title_list.append(k.get('aria-label'))
 
-# get author
-
+# get author, utc
 for k in soup.find_all('td', class_ ="author align-middle fit-content limit-width px-3"):
     for j in k.find_all('div', class_ ="mb-1 line-height-3 text-truncate"):
         author_list.append(j.get_text())
-#print(author_list)
+
+print(utc_list)
 
 # 子网页
 i = 0
@@ -60,6 +61,11 @@ for i in range(len(links_list)):
     for j in soup.find_all('a', href=re.compile("user")):
         child_author_list.append(j.get_text())
 
+
+    utc = soup.find('time')
+    utc_list.append(utc.get('datetime'))
+    #print(utc_list)
+
     #print(question_list[i])
     i += 1
 
@@ -70,7 +76,7 @@ for i in range(len(links_list)):
 
 
 #load data to csv
-df = pd.DataFrame({'Titles':title_list, 'Links':links_list, 'Author': author_list, 'Content': content_list })
+df = pd.DataFrame({'Titles':title_list, 'Links':links_list,'Post_Time': utc_list, 'Author': author_list, 'Content': content_list })
 #print(df)
 #df2 = pd.DataFrame({'Author':child_author_list,'Title': child_title_list,'Links': child_links_list,'Questions':question_list})
 #print(df2)
