@@ -178,6 +178,9 @@ h6{
 
 
 
+
+
+
 .row {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     height: 85%;
@@ -293,9 +296,6 @@ input.first-item, textarea.first-item, b.first-item {
     text-align: center;
 }
 
-
-
-
 div.scroll {
     /* background-color: #fed9ff; */
     /* width: 600px;
@@ -318,7 +318,7 @@ div.scroll {
 
 #page2 {
     color: #646464;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
