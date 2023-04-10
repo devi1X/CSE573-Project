@@ -49,7 +49,7 @@ $(document).ready(function(){
 
         for (var i = 0; i < data_arr.length; i ++) {
 
-          if ((checked_filters.includes(data_arr[i]['post_Time_ymd'].substring(0, 7))) || (checked_filters.length == 0)) {
+          if ((checked_filters.includes(data_arr[i]['post_Time_ym'])) || (checked_filters.length == 0)) {
 
 
                   result_cnt += 1;
@@ -72,13 +72,15 @@ $(document).ready(function(){
   
                   var card_html = 
                   '<div class="card">' +
-                  '<h5 class="card-header search-keyword">Title: ' + postHeading + '</h5>' +
+                  '<a target="_blank" rel="noopener noreferrer" href="' + postLink + '">'+
+                  '<h5 class="card-header search-keyword" style="font-size:18px;">Title: ' + postHeading + '</h5>' +
+                  '</a>' +
                   '<div class="card-body">' +
                   '<h5 class="card-title">Post Time: ' + postTime + '</h5>' +
                   '<h5 class="card-title">Author: ' + author + '</h5>' +
                   '<p class="card-text">' + postContent + '</h5>' +
-                  '<p class="card-title">Tags: ' + postTag + '</p>' +
-                  '<h5 class="card-title"><a target="_blank" rel="noopener noreferrer" href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
+                  '<p class="card-title" style="font-size:15px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
+                  // '<h5 class="card-title"><a target="_blank" rel="noopener noreferrer" href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
                   //   '<p class="card-text">' + postLink + '</p>' +
                   '</div>' +
               '</div>';
@@ -167,13 +169,15 @@ function updateData(data) {
 
           var card_html = 
                       '<div class="card">' +
-                      '<h5 class="card-header search-keyword">Title: ' + postHeading + '</h5>' +
+                      '<a target="_blank" rel="noopener noreferrer" href="' + postLink + '">'+
+                      '<h5 class="card-header search-keyword" style="font-size:18px;">Title: ' + postHeading + '</h5>' +
+                      '</a>' +
                       '<div class="card-body">' +
                       '<h5 class="card-title">Post Time: ' + postTime + '</h5>' +
                       '<h5 class="card-title">Author: ' + author + '</h5>' +
                       '<p class="card-text">' + postContent + '</h5>' +
-                      '<p class="card-title">Tags: ' + postTag + '</p>' +
-                      '<h5 class="card-title"><a href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
+                      '<p class="card-title" style="font-size:15px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
+                      // '<h5 class="card-title"><a href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
                       //   '<p class="card-text">' + postLink + '</p>' +
                       '</div>' +
                   '</div>';

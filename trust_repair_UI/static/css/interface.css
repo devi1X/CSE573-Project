@@ -1,14 +1,31 @@
 
 
+a:link {
+    color: #646464;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #4292C6;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 
 input {
     color: #646464;
 }
 
-label > input[type=radio] {
+/* label > input[type=radio] {
     display: block;
     margin: 0 auto;
     background-color: rgba(240,240,240, 00.7) ;
+} */
+
+
+#searchingDiv {
+    margin-left: 150px;
 }
 
 label {
@@ -17,6 +34,7 @@ label {
     padding-right: 15px;
     padding-top: 0px;
     color: #646464;
+    font-size: 16px;
 }
 
 body{
