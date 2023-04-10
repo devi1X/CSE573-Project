@@ -68,8 +68,6 @@ def interface_data_render(search_word):
         return list(), list()
     
 
-
-
     df = pd.read_csv('merged_result.csv')
     df = df.dropna()
 
@@ -100,7 +98,7 @@ def interface_data_render(search_word):
 
 # change to the corresponding dataframe matching the search keyword later
     matched_df = df[df['preferred_name'].isin(matching_preferred_names)]
-    cur_df = interface_df.iloc[matched_df['content_index'].unique()]
+    cur_df = interface_df[interface_df['content_index'].isin(matched_df['content_index'].unique())]
     cur_df['cur_search_name'] = search_word
     cur_df['cur_search_name_score'] = matched_df.groupby(['content_index']).sum()['score'].values
 
@@ -136,8 +134,7 @@ def searchResultPage():
     
     print("RECEIVED Searching Word !!!!!~~~~~~~~~~~~")
     print(search_word)
-
-    cur_data_list, cur_month_list = interface_data_render(search_word)
+    cur_data_list, cur_month_list = interface_data_render(search_word)    
     search_word_list = list()
     search_word_list.append(search_word)
     # cur_data_list = []
