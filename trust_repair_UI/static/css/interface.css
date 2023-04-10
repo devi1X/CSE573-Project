@@ -22,7 +22,15 @@ input {
     margin: 0 auto;
     background-color: rgba(240,240,240, 00.7) ;
 } */
+#sort-btn {
+    color: rgba(66, 146, 198, 0.8);
+    background-color: white;
+    border: 1px solid rgba(66, 146, 198, 0.7);
+}
 
+#searchingBtn {
+    border: 0px;
+}
 
 #searchingDiv {
     margin-left: 150px;

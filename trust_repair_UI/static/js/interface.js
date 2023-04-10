@@ -3,8 +3,9 @@ var num=1;
 
 
 var dropdown_sort_html = 
-'<span margin-top:20px;" id="num-of-results"></span>' +
-'<div class="dropdown" id="sorting-dropdown" style="padding-bottom: 10px;">'+
+'<div class="form-inline" >'+
+'<span id="num-of-results"></span>' +
+'<div class="dropdown" id="sorting-dropdown" style="padding-bottom: 15px; margin-left: 10px;">'+
     '<button id="sort-btn" class="btn dropdown-toggle" style="font-size:16px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top:0px;">' +
     'Sort Condition</button>'+
     '<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="font-size:16px;">' +
@@ -12,6 +13,7 @@ var dropdown_sort_html =
         '<a class="dropdown-item" href="#" onclick="sort_by_time_oldest_first()">Sort by Time (Oldest first)</a>'+
         '<a class="dropdown-item" href="#" onclick="sort_by_correction_strongest_first()">Sort by Correlation (Strongest first)</a>'+
     '</div>'+
+'</div>'+
 '</div>';
 
 
@@ -76,10 +78,10 @@ $(document).ready(function(){
                   '<h5 class="card-header search-keyword" style="font-size:18px;">Title: ' + postHeading + '</h5>' +
                   '</a>' +
                   '<div class="card-body">' +
-                  '<h5 class="card-title">Post Time: ' + postTime + '</h5>' +
-                  '<h5 class="card-title">Author: ' + author + '</h5>' +
+                  '<h5 class="card-title" style="font-size:13px;">Post Time: ' + postTime + '</h5>' +
+                  '<h5 class="card-title" style="font-size:13px;">Author: ' + author + '</h5>' +
                   '<p class="card-text">' + postContent + '</h5>' +
-                  '<p class="card-title" style="font-size:15px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
+                  '<p class="card-title" style="font-size:13px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
                   // '<h5 class="card-title"><a target="_blank" rel="noopener noreferrer" href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
                   //   '<p class="card-text">' + postLink + '</p>' +
                   '</div>' +
@@ -173,10 +175,10 @@ function updateData(data) {
                       '<h5 class="card-header search-keyword" style="font-size:18px;">Title: ' + postHeading + '</h5>' +
                       '</a>' +
                       '<div class="card-body">' +
-                      '<h5 class="card-title">Post Time: ' + postTime + '</h5>' +
-                      '<h5 class="card-title">Author: ' + author + '</h5>' +
+                      '<h5 class="card-title" style="font-size:13px;">Post Time: ' + postTime + '</h5>' +
+                      '<h5 class="card-title" style="font-size:13px;">Author: ' + author + '</h5>' +
                       '<p class="card-text">' + postContent + '</h5>' +
-                      '<p class="card-title" style="font-size:15px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
+                      '<p class="card-title" style="font-size:13px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
                       // '<h5 class="card-title"><a href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
                       //   '<p class="card-text">' + postLink + '</p>' +
                       '</div>' +
