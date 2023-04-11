@@ -65,7 +65,8 @@ $(document).ready(function(){
                   var postLink = data_arr[i].link;
 
                   for (var j = 0; j < data_arr[i].preferred_name_list.length; j ++) {
-                      postTag += data_arr[i].preferred_name_list[j];
+                      // postTag += data_arr[i].preferred_name_list[j];
+                      postTag += '<span class="tag">' + data_arr[i].preferred_name_list[j] + '</span>';
                       cur_unique_tags.push(data_arr[i].preferred_name_list[j]);
                       if (j != data_arr[i].preferred_name_list.length - 1) {
                           postTag += ", ";
@@ -81,7 +82,7 @@ $(document).ready(function(){
                   '<h5 class="card-title" style="font-size:13px;">Post Time: ' + postTime + '</h5>' +
                   '<h5 class="card-title" style="font-size:13px;">Author: ' + author + '</h5>' +
                   '<p class="card-text">' + postContent + '</h5>' +
-                  '<p class="card-title" style="font-size:13px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
+                  '<p class="card-title" style="font-size:13px; color:rgba(158,202,225,1);">Keywords: ' + postTag + '</p>' +
                   // '<h5 class="card-title"><a target="_blank" rel="noopener noreferrer" href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
                   //   '<p class="card-text">' + postLink + '</p>' +
                   '</div>' +
@@ -135,6 +136,9 @@ function search() {
 
 
 
+
+
+
 function updateData(data) {
   document.getElementById("filters").innerHTML = '<p style="font-size:20px">Time Period</p>'
     cur_unique_tags = [];
@@ -160,9 +164,12 @@ function updateData(data) {
           var postContent = data[i].content;
           var postTag = "";
           var postLink = data[i].link;
+    
 
           for (var j = 0; j < data[i].preferred_name_list.length; j ++) {
-              postTag += data[i].preferred_name_list[j];
+              
+              // postTag += '<a href "#" style="color:rgba(158,202,225,1);"><span class="tag">' + data[i].preferred_name_list[j] + '</span></a>';
+              postTag += '<span class="tag">' + data[i].preferred_name_list[j] + '</span>';
               cur_unique_tags.push(data[i].preferred_name_list[j]);
               if (j != data[i].preferred_name_list.length - 1) {
                   postTag += ", ";
@@ -178,7 +185,7 @@ function updateData(data) {
                       '<h5 class="card-title" style="font-size:13px;">Post Time: ' + postTime + '</h5>' +
                       '<h5 class="card-title" style="font-size:13px;">Author: ' + author + '</h5>' +
                       '<p class="card-text">' + postContent + '</h5>' +
-                      '<p class="card-title" style="font-size:13px; color:rgba(158,202,225,1);">Tags: ' + postTag + '</p>' +
+                      '<p class="card-title" style="font-size:13px; color:rgba(158,202,225,1);">Keywords: ' + postTag + '</p>' +
                       // '<h5 class="card-title"><a href="' + postLink + '">Click to see the original post</a>' + '</h5>' +
                       //   '<p class="card-text">' + postLink + '</p>' +
                       '</div>' +
@@ -213,7 +220,31 @@ function updateData(data) {
 }
 
 
+function clickTag(searchTag) {
 
+//   console.log("current search tag:", searchTag);
+//   var startTime = new Date();
+//   $.ajax({
+//     url: "/searchResultPage",
+//     type: "GET",
+//     async: false,
+//     data: {
+//         // searchTerm:cur_search_txt,
+//         startTime:startTime.toString(),
+//     }
+// });
+  window.location.href = `/searchResultPage?searchTerm=${searchTag}`;
+
+}
+
+
+var elements = document.getElementsByClassName("tag");
+var myFunction = function() {
+  clickTag(this.innerHTML);
+}
+for (var i = 0; i < elements.length; i++) {
+  elements[i].addEventListener('click', myFunction, false);
+}
 
 
 

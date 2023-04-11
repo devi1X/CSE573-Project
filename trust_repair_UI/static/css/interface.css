@@ -155,6 +155,13 @@ h6{
 }
 
 
+/* a:hover, a:hover span {
+    color: #2171b5;
+} */
+.tag:hover {
+    color: #2171b5;
+}
+
 #timeEndGoToSurveyBtn {
     margin-top: 50px;
     background-color: rgba(66,146,198,0.7);

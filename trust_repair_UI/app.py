@@ -70,6 +70,7 @@ def interface_data_render(search_word):
 
     df = pd.read_csv('merged_result.csv')
     df = df.dropna()
+    df = df[df['preferred_name'] != "Iodides"]
 
     unique_preferred_names = df['preferred_name'].unique()
     matching_preferred_names = list()
@@ -103,7 +104,7 @@ def interface_data_render(search_word):
     cur_df['cur_search_name_score'] = matched_df.groupby(['content_index']).sum()['score'].values
 
     cur_df['post_Time_ym'] = cur_df['post_Time'].apply(lambda x: x[:7])
-    cur_month_list = list(cur_df['post_Time_ym'].unique())
+    cur_month_list = sorted(list(cur_df['post_Time_ym'].unique()))
  
 
     cur_data_list = list()
